@@ -1,11 +1,11 @@
 #landingPageJumbotron {
-  background-image: url('https://www.firstlight.farm/assets/resized/sm/upload/ix/d5/ds/9z/Sliced%20ribeye-0-1440-0-499-crop.jpg?k=dd305b5a92');
+  /* background-image: url('https://www.firstlight.farm/assets/resized/sm/upload/ix/d5/ds/9z/Sliced%20ribeye-0-1440-0-499-crop.jpg?k=dd305b5a92'); */
   position: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
   text-align: center;
   padding: 0;
   z-index: 0;

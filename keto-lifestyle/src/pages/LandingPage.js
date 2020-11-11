@@ -7,12 +7,10 @@ import '../App.css'
 function LandingPage() {
     return (
         <div style={{ backgroundColor: 'black' }}>
-            <Container>
                 <Jumbotron id='landingPageJumbotron'>
                     <h1>The Carnivore Life</h1>
                     <h2>Lifestyle | Recipes | Blog</h2>
                 </Jumbotron>
-            </Container>
         </div>
     )
 }
