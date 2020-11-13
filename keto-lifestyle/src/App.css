@@ -1,5 +1,5 @@
 #landingPageJumbotron {
-  background-image: url('https://cdn.shopify.com/s/files/1/0482/3233/files/Ribeye_grande.jpg?1918880110931829887');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.shopify.com/s/files/1/0482/3233/files/Ribeye_grande.jpg?1918880110931829887');
   background-color: black;
   position: fixed;
   display: flex;
