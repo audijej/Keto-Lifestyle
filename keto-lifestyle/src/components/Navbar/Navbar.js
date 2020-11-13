@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark">
             <Link className="navbar-brand" to="/">
-                <h1>Keto Lifestyle</h1>
+                <h1 id="navbarTab">Keto Lifestyle</h1>
             </Link>
             <div>
                 <ul className="navbar-nav">
