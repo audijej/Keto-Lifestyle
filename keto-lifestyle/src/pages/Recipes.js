@@ -23,9 +23,9 @@ function RecipesPage() {
 
             <CardGroup>
                 <Card>
-                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Img variant="top" src="https://cdn4.iconfinder.com/data/icons/kitchen-vol-1/100/4-512.png" />
                     <Card.Body>
-                        <Card.Title>Pork Belly</Card.Title>
+                        <Card.Title>Beef</Card.Title>
                         <Card.Text>
                             This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.
@@ -36,9 +36,9 @@ function RecipesPage() {
                     </Card.Footer>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Img variant="top" src="https://cdn1.iconfinder.com/data/icons/mammals-i/300/22-512.png" />
                     <Card.Body>
-                        <Card.Title>Wagyu Steak</Card.Title>
+                        <Card.Title>Pork</Card.Title>
                         <Card.Text>
                             This card has supporting text below as a natural lead-in to additional
                         content.{' '}
@@ -49,9 +49,65 @@ function RecipesPage() {
                     </Card.Footer>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Img variant="top" src="https://cdn3.iconfinder.com/data/icons/farm-animals/128/chicken-512.png" />
                     <Card.Body>
-                        <Card.Title>Spicy Salmon</Card.Title>
+                        <Card.Title>Chicken</Card.Title>
+                        <Card.Text>
+                            This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to
+                            show that equal height action.
+      </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                    </Card.Footer>
+                </Card>
+                <Card>
+                    <Card.Img variant="top" src="https://cdn3.iconfinder.com/data/icons/mammal/100/__-06-512.png" />
+                    <Card.Body>
+                        <Card.Title>Lamb</Card.Title>
+                        <Card.Text>
+                            This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to
+                            show that equal height action.
+      </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                    </Card.Footer>
+                </Card>
+                <Card>
+                    <Card.Img variant="top" src="https://cdn4.iconfinder.com/data/icons/eldorado-medicine/40/fish-512.png" />
+                    <Card.Body>
+                        <Card.Title>Seafood</Card.Title>
+                        <Card.Text>
+                            This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to
+                            show that equal height action.
+      </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                    </Card.Footer>
+                </Card>
+                <Card>
+                    <Card.Img variant="top" src="https://cdn4.iconfinder.com/data/icons/healthy-food/164/egg-512.png" />
+                    <Card.Body>
+                        <Card.Title>Breakfast</Card.Title>
+                        <Card.Text>
+                            This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to
+                            show that equal height action.
+      </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                    </Card.Footer>
+                </Card>
+                <Card>
+                    <Card.Img variant="top" src="https://cdn1.iconfinder.com/data/icons/thanksgiving-related-solid/64/autumn_thanksgiving-06-512.png" />
+                    <Card.Body>
+                        <Card.Title>Turkey</Card.Title>
                         <Card.Text>
                             This is a wider card with supporting text below as a natural lead-in to
                             additional content. This card has even longer content than the first to
