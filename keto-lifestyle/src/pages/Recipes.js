@@ -13,10 +13,9 @@ function RecipesPage() {
 
             <Jumbotron fluid>
                 <Container>
-                    <h1>Fluid jumbotron</h1>
+                    <h1 style={{color: 'black', fontFamily: "Kaushan Script', cursive"}}>Recipes</h1>
                     <p>
-                        This is a modified jumbotron that occupies the entire horizontal space of
-                        its parent.
+                        Find recipes for your favorite type of meat
                     </p>
                 </Container>
             </Jumbotron>
@@ -27,8 +26,7 @@ function RecipesPage() {
                     <Card.Body>
                         <Card.Title>Beef</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                            Recipes for beef
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -40,8 +38,7 @@ function RecipesPage() {
                     <Card.Body>
                         <Card.Title>Pork</Card.Title>
                         <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                        content.{' '}
+                        Recipes for pork
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -53,9 +50,7 @@ function RecipesPage() {
                     <Card.Body>
                         <Card.Title>Chicken</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to
-                            show that equal height action.
+                        Recipes for poultry
       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -67,9 +62,7 @@ function RecipesPage() {
                     <Card.Body>
                         <Card.Title>Lamb</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to
-                            show that equal height action.
+                        Recipes for lamb
       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -81,9 +74,7 @@ function RecipesPage() {
                     <Card.Body>
                         <Card.Title>Seafood</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to
-                            show that equal height action.
+                        Recipes for seafood
       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -95,9 +86,7 @@ function RecipesPage() {
                     <Card.Body>
                         <Card.Title>Breakfast</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to
-                            show that equal height action.
+                        Recipes for breakfast
       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -109,9 +98,7 @@ function RecipesPage() {
                     <Card.Body>
                         <Card.Title>Turkey</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to
-                            show that equal height action.
+                        Recipes for turkey
       </Card.Text>
                     </Card.Body>
                     <Card.Footer>

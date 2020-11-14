@@ -51,14 +51,27 @@ function Navbar() {
                             to="/contact"
                             className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
                         >
+                            Keto Challenge
+              </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link
+                            id="navbarTab"
+                            to="/contact"
+                            className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                        >
                             Contact
               </Link>
                     </li>
 
                     <DropdownButton id="dropdown-basic-button" title="Recipes">
-                            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                            <Dropdown.Item href="#/action-1">Beef</Dropdown.Item>
+                            <Dropdown.Item href="#/action-2">Pork</Dropdown.Item>
+                            <Dropdown.Item href="#/action-3">Chicken</Dropdown.Item>
+                            <Dropdown.Item href="#/action-1">Lamb</Dropdown.Item>
+                            <Dropdown.Item href="#/action-1">Seafood</Dropdown.Item>
+                            <Dropdown.Item href="#/action-1">Turkey</Dropdown.Item>
+                            <Dropdown.Item href="#/action-1">Breakfast</Dropdown.Item>
                         </DropdownButton>
                 </ul>
             </div>
