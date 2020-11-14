@@ -4,6 +4,8 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup'
 
 function RecipesPage() {
     return (
@@ -65,3 +67,5 @@ function RecipesPage() {
         </div>
     )
 }
+
+export default RecipesPage
