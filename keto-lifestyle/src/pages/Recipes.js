@@ -11,7 +11,7 @@ function RecipesPage() {
     return (
         <div>
 
-            <Jumbotron fluid>
+            <Jumbotron style={{backgroundColor: "purple", textAlign: 'center'}} fluid>
                 <Container>
                     <h1 style={{color: 'black', fontFamily: "Kaushan Script', cursive"}}>Recipes</h1>
                     <p>

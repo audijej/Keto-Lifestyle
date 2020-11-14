@@ -60,6 +60,24 @@ function Navbar() {
                             to="/contact"
                             className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
                         >
+                            Keto Calculator
+              </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link
+                            id="navbarTab"
+                            to="/contact"
+                            className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                        >
+                            Fitness | Workout Plans
+              </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link
+                            id="navbarTab"
+                            to="/contact"
+                            className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                        >
                             Contact
               </Link>
                     </li>
