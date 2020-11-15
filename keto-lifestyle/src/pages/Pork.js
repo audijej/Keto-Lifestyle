@@ -18,6 +18,21 @@ function Pork() {
                     </p>
                 </Container>
             </Jumbotron>
+
+            <CardGroup>
+            <Card>
+                    <Card.Img variant="top" src="https://cdn1.iconfinder.com/data/icons/mammals-i/300/22-512.png" />
+                    <Card.Body>
+                        <Card.Title>Pork</Card.Title>
+                        <Card.Text>
+                        Recipes for pork
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                    </Card.Footer>
+                </Card>
+                </CardGroup>
         </div>
     )
 }

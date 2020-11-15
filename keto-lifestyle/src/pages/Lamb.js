@@ -18,6 +18,21 @@ function Lamb() {
                     </p>
                 </Container>
             </Jumbotron>
+
+            <CardGroup>
+            <Card>
+                    <Card.Img variant="top" src="https://cdn3.iconfinder.com/data/icons/mammal/100/__-06-512.png" />
+                    <Card.Body>
+                        <Card.Title>Lamb</Card.Title>
+                        <Card.Text>
+                        Recipes for lamb
+      </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                    </Card.Footer>
+                </Card>
+                </CardGroup>
         </div>
     )
 }

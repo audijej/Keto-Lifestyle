@@ -18,6 +18,21 @@ function Seafood() {
                     </p>
                 </Container>
             </Jumbotron>
+
+            <CardGroup>
+            <Card>
+                    <Card.Img variant="top" src="https://cdn4.iconfinder.com/data/icons/eldorado-medicine/40/fish-512.png" />
+                    <Card.Body>
+                        <Card.Title>Seafood</Card.Title>
+                        <Card.Text>
+                        Recipes for seafood
+      </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                    </Card.Footer>
+                </Card>
+                </CardGroup>
         </div>
     )
 }

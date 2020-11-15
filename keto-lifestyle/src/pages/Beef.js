@@ -18,6 +18,45 @@ function Beef() {
                     </p>
                 </Container>
             </Jumbotron>
+
+            <CardGroup>
+                <Card>
+                    <Card.Img variant="top" src="https://cdn4.iconfinder.com/data/icons/kitchen-vol-1/100/4-512.png" />
+                    <Card.Body>
+                        <Card.Title>Beef</Card.Title>
+                        <Card.Text>
+                            Recipes for beef
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                    </Card.Footer>
+                </Card>
+                <Card>
+                    <Card.Img variant="top" src="https://cdn4.iconfinder.com/data/icons/kitchen-vol-1/100/4-512.png" />
+                    <Card.Body>
+                        <Card.Title>Beef</Card.Title>
+                        <Card.Text>
+                            Recipes for beef
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                    </Card.Footer>
+                </Card>
+                <Card>
+                    <Card.Img variant="top" src="https://cdn4.iconfinder.com/data/icons/kitchen-vol-1/100/4-512.png" />
+                    <Card.Body>
+                        <Card.Title>Beef</Card.Title>
+                        <Card.Text>
+                            Recipes for beef
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                    </Card.Footer>
+                </Card>
+                </CardGroup>
         </div>
     )
 }

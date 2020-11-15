@@ -18,6 +18,21 @@ function Turkey() {
                     </p>
                 </Container>
             </Jumbotron>
+
+            <CardGroup>
+            <Card>
+                    <Card.Img variant="top" src="https://cdn1.iconfinder.com/data/icons/thanksgiving-related-solid/64/autumn_thanksgiving-06-512.png" />
+                    <Card.Body>
+                        <Card.Title>Turkey</Card.Title>
+                        <Card.Text>
+                        Recipes for turkey
+      </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                    </Card.Footer>
+                </Card>
+                </CardGroup>
         </div>
     )
 }

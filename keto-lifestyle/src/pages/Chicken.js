@@ -18,6 +18,21 @@ function Chicken() {
                     </p>
                 </Container>
             </Jumbotron>
+
+            <CardGroup>
+            <Card>
+                    <Card.Img variant="top" src="https://cdn3.iconfinder.com/data/icons/farm-animals/128/chicken-512.png" />
+                    <Card.Body>
+                        <Card.Title>Chicken</Card.Title>
+                        <Card.Text>
+                        Recipes for poultry
+      </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                    </Card.Footer>
+                </Card>
+                </CardGroup>
         </div>
     )
 }
