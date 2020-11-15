@@ -11,14 +11,12 @@
     transition: background-color .5s;
   }
   
-  .navbar:hover #navbarTab {
+  .navbar:hover #navbarTab:hover {
   color: black;
-  font-weight: bolder;
   }
   
   #navbarTab {
     color: white;
-    font-size: 20px;
   }
   
   
