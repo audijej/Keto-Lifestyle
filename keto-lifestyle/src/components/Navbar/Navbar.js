@@ -31,7 +31,7 @@ function Navbar() {
                         <Link
                             id="navbarTab"
                             to="/recipes"
-                            className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+                            className={window.location.pathname === "/recipes" ? "nav-link active" : "nav-link"}
                         >
                             Recipes
               </Link>
@@ -48,8 +48,8 @@ function Navbar() {
                     <li className="nav-item">
                         <Link
                             id="navbarTab"
-                            to="/contact"
-                            className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                            to="/faqs"
+                            className={window.location.pathname === "/faqs" ? "nav-link active" : "nav-link"}
                         >
                             Keto Challenge
               </Link>
@@ -57,8 +57,8 @@ function Navbar() {
                     <li className="nav-item">
                         <Link
                             id="navbarTab"
-                            to="/contact"
-                            className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                            to="/challenge"
+                            className={window.location.pathname === "/challenge" ? "nav-link active" : "nav-link"}
                         >
                             Keto Calculator
               </Link>
@@ -66,8 +66,8 @@ function Navbar() {
                     <li className="nav-item">
                         <Link
                             id="navbarTab"
-                            to="/contact"
-                            className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                            to="/calculator"
+                            className={window.location.pathname === "/calculator" ? "nav-link active" : "nav-link"}
                         >
                             Fitness | Workout Plans
               </Link>
@@ -79,17 +79,73 @@ function Navbar() {
                             className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
                         >
                             Contact
-              </Link>
+                        </Link>
                     </li>
 
                     <DropdownButton id="dropdown-basic-button" title="Recipes">
-                            <Dropdown.Item href="#/action-1">Beef</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2">Pork</Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">Chicken</Dropdown.Item>
-                            <Dropdown.Item href="#/action-1">Lamb</Dropdown.Item>
-                            <Dropdown.Item href="#/action-1">Seafood</Dropdown.Item>
-                            <Dropdown.Item href="#/action-1">Turkey</Dropdown.Item>
-                            <Dropdown.Item href="#/action-1">Breakfast</Dropdown.Item>
+                            <Dropdown.Item href="#/action-1">
+                            <Link
+                            id="navbarTab"
+                            to="/beef"
+                            className={window.location.pathname === "/beef" ? "nav-link active" : "nav-link"}
+                        >
+                            Beef
+                        </Link>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#/action-2">
+                            <Link
+                            id="navbarTab"
+                            to="/pork"
+                            className={window.location.pathname === "/pork" ? "nav-link active" : "nav-link"}
+                        >
+                            Pork
+                        </Link>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#/action-3">
+                            <Link
+                            id="navbarTab"
+                            to="/chicken"
+                            className={window.location.pathname === "/chicken" ? "nav-link active" : "nav-link"}
+                        >
+                            Chicken
+                        </Link>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#/action-1">
+                            <Link
+                            id="navbarTab"
+                            to="/lamb"
+                            className={window.location.pathname === "/lamb" ? "nav-link active" : "nav-link"}
+                        >
+                            Lamb
+                        </Link>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#/action-1">
+                            <Link
+                            id="navbarTab"
+                            to="/seafood"
+                            className={window.location.pathname === "/seafood" ? "nav-link active" : "nav-link"}
+                        >
+                            Seafood
+                        </Link>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#/action-1">
+                            <Link
+                            id="navbarTab"
+                            to="/turkey"
+                            className={window.location.pathname === "/turkey" ? "nav-link active" : "nav-link"}
+                        >
+                            Turkey
+                        </Link>
+                            </Dropdown.Item>
+                            <Dropdown.Item href="#/action-1">
+                            <Link
+                            id="navbarTab"
+                            to="/breakfast"
+                            className={window.location.pathname === "/breakfast" ? "nav-link active" : "nav-link"}
+                        >
+                            Breakfast
+                        </Link>
+                            </Dropdown.Item>
                         </DropdownButton>
                 </ul>
             </div>
