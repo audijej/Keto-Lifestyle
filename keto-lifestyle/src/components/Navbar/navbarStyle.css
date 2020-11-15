@@ -11,12 +11,16 @@
     transition: background-color .5s;
   }
   
-  .navbar:hover #navbarTab:hover {
+  .navbar:hover #navbarTab {
   color: black;
   }
   
   #navbarTab {
     color: white;
+  }
+
+  #navbarTabDropdown {
+      color: black
   }
   
   

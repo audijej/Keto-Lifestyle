@@ -85,7 +85,7 @@ function Navbar() {
                     <DropdownButton id="dropdown-basic-button" title="Recipes">
                             <Dropdown.Item href="#/action-1">
                             <Link
-                            id="navbarTab"
+                            id="navbarTabDropdown"
                             to="/beef"
                             className={window.location.pathname === "/beef" ? "nav-link active" : "nav-link"}
                         >
@@ -94,7 +94,7 @@ function Navbar() {
                             </Dropdown.Item>
                             <Dropdown.Item href="#/action-2">
                             <Link
-                            id="navbarTab"
+                            id="navbarTabDropdown"
                             to="/pork"
                             className={window.location.pathname === "/pork" ? "nav-link active" : "nav-link"}
                         >
@@ -103,7 +103,7 @@ function Navbar() {
                             </Dropdown.Item>
                             <Dropdown.Item href="#/action-3">
                             <Link
-                            id="navbarTab"
+                            id="navbarTabDropdown"
                             to="/chicken"
                             className={window.location.pathname === "/chicken" ? "nav-link active" : "nav-link"}
                         >
@@ -112,7 +112,7 @@ function Navbar() {
                             </Dropdown.Item>
                             <Dropdown.Item href="#/action-1">
                             <Link
-                            id="navbarTab"
+                            id="navbarTabDropdown"
                             to="/lamb"
                             className={window.location.pathname === "/lamb" ? "nav-link active" : "nav-link"}
                         >
@@ -121,7 +121,7 @@ function Navbar() {
                             </Dropdown.Item>
                             <Dropdown.Item href="#/action-1">
                             <Link
-                            id="navbarTab"
+                            id="navbarTabDropdown"
                             to="/seafood"
                             className={window.location.pathname === "/seafood" ? "nav-link active" : "nav-link"}
                         >
@@ -130,7 +130,7 @@ function Navbar() {
                             </Dropdown.Item>
                             <Dropdown.Item href="#/action-1">
                             <Link
-                            id="navbarTab"
+                            id="navbarTabDropdown"
                             to="/turkey"
                             className={window.location.pathname === "/turkey" ? "nav-link active" : "nav-link"}
                         >
@@ -139,7 +139,7 @@ function Navbar() {
                             </Dropdown.Item>
                             <Dropdown.Item href="#/action-1">
                             <Link
-                            id="navbarTab"
+                            id="navbarTabDropdown"
                             to="/breakfast"
                             className={window.location.pathname === "/breakfast" ? "nav-link active" : "nav-link"}
                         >
