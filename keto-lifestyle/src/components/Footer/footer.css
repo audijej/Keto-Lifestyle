@@ -5,7 +5,7 @@
     text-align: center;
     position: fixed;
 
-  }
+  } */
   
   .social-media-icon {
     display: inline-block;
@@ -22,7 +22,7 @@
     color: purple;
     transition: .7s;
     transform: rotate(360deg);
-  } */
+  }
 
   footer {
     background-color: rgb(235, 195, 64);

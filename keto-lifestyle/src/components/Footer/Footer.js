@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer className="footer">
             <h5 style={{ color: "black" }}>Built with React</h5>
-            <i class="fab fa-react" style={{color: "blue"}}></i>
+            <i class="fab fa-react" style={{ color: "blue" }}></i>
             <h5 style={{ color: "black" }}>Project By: Grace</h5>
             <h5 style={{ color: "black" }}>© 2020 Keto Grace All Rights Reserved</h5>
             {/* <ul class="contacts"> */}
@@ -16,6 +16,9 @@ function Footer() {
                 class="fab fa-github"></i></a></li>
             <li class="social-media-icon"><a href="https://www.instagram.com/jesse_behind_the_camera/" target="blank"><i
                 class="fab fa-instagram-square"></i></a></li>
+            <li class="social-media-icon"><a href="https://www.instagram.com/jesse_behind_the_camera/" target="blank"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-media-icon"><a href="https://www.instagram.com/jesse_behind_the_camera/" target="blank"><i class="fab fa-youtube"></i></a></li>
+
             {/* </ul> */}
         </footer>
 
