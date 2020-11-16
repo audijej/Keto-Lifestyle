@@ -17,7 +17,10 @@
   
   #navbarTab {
     color: white;
+    font-family: 'Kaushan Script', cursive;
   }
+
+
 
   #navbarTabDropdown {
       color: black

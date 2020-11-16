@@ -82,7 +82,7 @@ function Navbar() {
                         </Link>
                     </li>
 
-                    <DropdownButton id="dropdown-basic-button" title="Recipes">
+                    <DropdownButton id="navbarTab" title="Recipes">
                             <Dropdown.Item href="#/action-1">
                             <Link
                             id="navbarTabDropdown"
