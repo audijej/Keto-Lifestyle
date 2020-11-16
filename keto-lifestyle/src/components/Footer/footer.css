@@ -25,10 +25,8 @@
   } */
 
   footer {
-    margin-top: 8000px;
-    padding: 20px;
     background-color: rgb(235, 195, 64);
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
