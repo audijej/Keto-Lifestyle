@@ -11,6 +11,7 @@ import Lamb from './pages/Lamb';
 import Pork from './pages/Pork';
 import Seafood from './pages/Seafood';
 import Turkey from './pages/Turkey';
+import About from './pages/About'
 
 import './App.css';
 
@@ -22,6 +23,7 @@ function App() {
         <Navbar />
 
         <Route exact path="/" component={LandingPage} />
+        <Route exact path="/about" component={About} />
         <Route exact path="/recipes" component={RecipesPage} />
         <Route exact path="/beef" component={Beef} />
         <Route exact path="/breakfast" component={Breakfast} />
