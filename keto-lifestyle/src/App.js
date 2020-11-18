@@ -11,7 +11,8 @@ import Lamb from './pages/Lamb';
 import Pork from './pages/Pork';
 import Seafood from './pages/Seafood';
 import Turkey from './pages/Turkey';
-import About from './pages/About'
+import About from './pages/About';
+import Contact from './pages/Contact'
 
 import './App.css';
 
@@ -20,10 +21,11 @@ function App() {
 
     <Router>
       <div className="App">
-        <Navbar />
+        <Navbar className="navigationBar"/>
 
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
         <Route exact path="/recipes" component={RecipesPage} />
         <Route exact path="/beef" component={Beef} />
         <Route exact path="/breakfast" component={Breakfast} />

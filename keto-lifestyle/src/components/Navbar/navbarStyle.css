@@ -3,6 +3,7 @@
     background-color: black;
     color: white;
     top: 0;
+    text-align: right;
   }
   
   .navbar:hover{
@@ -31,4 +32,8 @@
   li {
     text-align: right;
   
+  }
+
+  #navbarRight {
+    text-align: right;
   }

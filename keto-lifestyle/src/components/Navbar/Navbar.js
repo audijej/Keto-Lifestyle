@@ -1,18 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import DropdownButton from 'react-bootstrap/DropdownButton';
-import Dropdown from 'react-bootstrap/Dropdown'
+import Dropdown from 'react-bootstrap/Dropdown';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 import "./navbarStyle.css";
 
 
 function Navbar() {
     return (
+
+        
         <nav className="navbar navbar-expand-lg navbar-dark">
-            <Link className="navbar-brand" to="/">
-                <h1 id="navbarTab">Keto Lifestyle</h1>
-            </Link>
             <div>
-                <ul className="navbar-nav">
+                <Link className="navbar-brand" to="/">
+                    <h1 id="navbarTab">Keto Lifestyle</h1>
+                </Link>
+            </div>
+
+            <div id="navbarRight">
+                <ul className="navbar-nav" id="navbarRight">
                     <li className="nav-item">
                         <Link
                             id="navbarTab"
@@ -24,7 +31,7 @@ function Navbar() {
                             }
                         >
                             About
-              </Link>
+                        </Link>
                     </li>
 
                     <li className="nav-item">
@@ -34,7 +41,7 @@ function Navbar() {
                             className={window.location.pathname === "/recipes" ? "nav-link active" : "nav-link"}
                         >
                             Recipes
-              </Link>
+                        </Link>
                     </li>
                     <li className="nav-item">
                         <Link
@@ -43,7 +50,7 @@ function Navbar() {
                             className={window.location.pathname === "/photos" ? "nav-link active" : "nav-link"}
                         >
                             FAQs
-              </Link>
+                        </Link>
                     </li>
                     <li className="nav-item">
                         <Link
@@ -52,7 +59,7 @@ function Navbar() {
                             className={window.location.pathname === "/faqs" ? "nav-link active" : "nav-link"}
                         >
                             Keto Challenge
-              </Link>
+                        </Link>
                     </li>
                     <li className="nav-item">
                         <Link
@@ -61,7 +68,7 @@ function Navbar() {
                             className={window.location.pathname === "/challenge" ? "nav-link active" : "nav-link"}
                         >
                             Keto Calculator
-              </Link>
+                        </Link>
                     </li>
                     <li className="nav-item">
                         <Link
@@ -70,7 +77,7 @@ function Navbar() {
                             className={window.location.pathname === "/calculator" ? "nav-link active" : "nav-link"}
                         >
                             Fitness | Workout Plans
-              </Link>
+                        </Link>
                     </li>
                     <li className="nav-item">
                         <Link
@@ -83,73 +90,74 @@ function Navbar() {
                     </li>
 
                     <DropdownButton id="navbarTab" title="Recipes">
-                            <Dropdown.Item href="#/action-1">
+                        <Dropdown.Item href="#/action-1">
                             <Link
-                            id="navbarTabDropdown"
-                            to="/beef"
-                            className={window.location.pathname === "/beef" ? "nav-link active" : "nav-link"}
-                        >
-                            Beef
-                        </Link>
-                            </Dropdown.Item>
-                            <Dropdown.Item href="#/action-2">
+                                id="navbarTabDropdown"
+                                to="/beef"
+                                className={window.location.pathname === "/beef" ? "nav-link active" : "nav-link"}
+                            >
+                                Beef
+                            </Link>
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">
                             <Link
-                            id="navbarTabDropdown"
-                            to="/pork"
-                            className={window.location.pathname === "/pork" ? "nav-link active" : "nav-link"}
-                        >
-                            Pork
-                        </Link>
-                            </Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">
+                                id="navbarTabDropdown"
+                                to="/pork"
+                                className={window.location.pathname === "/pork" ? "nav-link active" : "nav-link"}
+                            >
+                                Pork
+                            </Link>
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">
                             <Link
-                            id="navbarTabDropdown"
-                            to="/chicken"
-                            className={window.location.pathname === "/chicken" ? "nav-link active" : "nav-link"}
-                        >
-                            Chicken
-                        </Link>
-                            </Dropdown.Item>
-                            <Dropdown.Item href="#/action-1">
+                                id="navbarTabDropdown"
+                                to="/chicken"
+                                className={window.location.pathname === "/chicken" ? "nav-link active" : "nav-link"}
+                            >
+                                Chicken
+                            </Link>
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">
                             <Link
-                            id="navbarTabDropdown"
-                            to="/lamb"
-                            className={window.location.pathname === "/lamb" ? "nav-link active" : "nav-link"}
-                        >
-                            Lamb
-                        </Link>
-                            </Dropdown.Item>
-                            <Dropdown.Item href="#/action-1">
+                                id="navbarTabDropdown"
+                                to="/lamb"
+                                className={window.location.pathname === "/lamb" ? "nav-link active" : "nav-link"}
+                            >
+                                Lamb
+                            </Link>
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">
                             <Link
-                            id="navbarTabDropdown"
-                            to="/seafood"
-                            className={window.location.pathname === "/seafood" ? "nav-link active" : "nav-link"}
-                        >
-                            Seafood
-                        </Link>
-                            </Dropdown.Item>
-                            <Dropdown.Item href="#/action-1">
+                                id="navbarTabDropdown"
+                                to="/seafood"
+                                className={window.location.pathname === "/seafood" ? "nav-link active" : "nav-link"}
+                            >
+                                Seafood
+                            </Link>
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">
                             <Link
-                            id="navbarTabDropdown"
-                            to="/turkey"
-                            className={window.location.pathname === "/turkey" ? "nav-link active" : "nav-link"}
-                        >
-                            Turkey
-                        </Link>
-                            </Dropdown.Item>
-                            <Dropdown.Item href="#/action-1">
+                                id="navbarTabDropdown"
+                                to="/turkey"
+                                className={window.location.pathname === "/turkey" ? "nav-link active" : "nav-link"}
+                            >
+                                Turkey
+                            </Link>
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">
                             <Link
-                            id="navbarTabDropdown"
-                            to="/breakfast"
-                            className={window.location.pathname === "/breakfast" ? "nav-link active" : "nav-link"}
-                        >
-                            Breakfast
-                        </Link>
-                            </Dropdown.Item>
-                        </DropdownButton>
+                                id="navbarTabDropdown"
+                                to="/breakfast"
+                                className={window.location.pathname === "/breakfast" ? "nav-link active" : "nav-link"}
+                            >
+                                Breakfast
+                            </Link>
+                        </Dropdown.Item>
+                    </DropdownButton>
                 </ul>
             </div>
         </nav>
+        
     );
 }
 

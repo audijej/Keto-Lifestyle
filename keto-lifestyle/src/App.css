@@ -31,3 +31,7 @@ h2 {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+.navigationBar {
+  text-align: right;
+}
