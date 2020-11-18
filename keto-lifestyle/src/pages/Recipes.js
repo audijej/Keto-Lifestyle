@@ -13,8 +13,8 @@ function RecipesPage() {
 
             <Jumbotron style={{backgroundColor: "purple", textAlign: 'center'}} fluid>
                 <Container>
-                    <h1 style={{color: 'black', fontFamily: "Kaushan Script', cursive"}}>Recipes</h1>
-                    <p>
+                    <h1 style={{color: 'white', fontFamily: "Kaushan Script', cursive"}}>Recipes</h1>
+                    <p style={{color: 'white', fontFamily: "Kaushan Script', cursive"}}>
                         Find recipes for your favorite type of meat
                     </p>
                 </Container>

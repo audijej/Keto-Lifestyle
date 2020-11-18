@@ -8,7 +8,7 @@
   } */
   
   .social-media-icon {
-    display: inline-block;
+    display: grid;
     list-style: none;
     padding: 5px;
     color: white;
@@ -32,5 +32,6 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    color: white
+    color: white;
+    display: block;
   }
