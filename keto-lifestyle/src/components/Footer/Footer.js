@@ -29,6 +29,7 @@ function Footer() {
                             class="fab fa-instagram-square"></i></a></li>
                         <li class="social-media-icon"><a href="https://www.instagram.com/jesse_behind_the_camera/" target="blank"><i class="fab fa-facebook"></i></a></li>
                         <li class="social-media-icon"><a href="https://www.instagram.com/jesse_behind_the_camera/" target="blank"><i class="fab fa-youtube"></i></a></li>
+                        <li class="social-media-icon"><a href="https://www.instagram.com/jesse_behind_the_camera/" target="blank"><i class="fa fa-twitter"></i></a></li>
 
                         {/* </ul> */}
                     </div>
