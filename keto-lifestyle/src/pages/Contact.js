@@ -10,7 +10,6 @@ import CardGroup from 'react-bootstrap/CardGroup';
 
 
 
-function Contact() {
 
     class ContactForm extends Component {
         constructor(props) {
@@ -30,9 +29,10 @@ function Contact() {
         };
           
         render() {
-            
+
     return (
         
+        <Container>
         <div className='ContactForm'>
           <form id='contact-form' noValidate>
             <div className='row'>
@@ -91,9 +91,10 @@ function Contact() {
             </button>
           </form>
         </div>
+        </Container>
       );
     }
 }
-}
 
-export default Contact
+
+export default ContactForm
