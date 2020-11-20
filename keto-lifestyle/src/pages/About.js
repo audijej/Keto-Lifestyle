@@ -25,6 +25,7 @@ function About() {
       <Row>
 
       <Col lg={6}>
+          <img src="https://via.placeholder.com/500"></img>
     {/* <Image className="img-fluid" id="portfolioImage" style={{height:"auto", width: "auto", textAlign:"center", paddingTop: "75px"}} src={PortfolioImage} alt="PortfolioImage" rounded/> */}
     </Col>
 
