@@ -11,10 +11,10 @@ function RecipesPage() {
     return (
         <div>
 
-            <Jumbotron style={{backgroundColor: "purple", textAlign: 'center'}} fluid>
+            <Jumbotron style={{backgroundColor: "white", textAlign: 'center'}} fluid>
                 <Container>
-                    <h1 style={{color: 'white', fontFamily: "Kaushan Script', cursive"}}>Recipes</h1>
-                    <p style={{color: 'white', fontFamily: "Kaushan Script', cursive"}}>
+                    <h1 id="recipePageHeader" style={{color: 'black', fontFamily: "Zilla Slab', serif"}}>Recipes</h1>
+                    <p style={{color: 'black', fontFamily: "Kaushan Script', cursive"}}>
                         Find recipes for your favorite type of meat
                     </p>
                 </Container>

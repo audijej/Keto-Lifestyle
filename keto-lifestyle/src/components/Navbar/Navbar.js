@@ -11,6 +11,8 @@ function Navbar() {
     return (
 
         
+
+        
         <nav className="navbar navbar-expand-lg navbar-dark">
             <div>
                 <Link className="navbar-brand" to="/">
@@ -47,7 +49,7 @@ function Navbar() {
                         <Link
                             id="navbarTab"
                             to="/faqs"
-                            className={window.location.pathname === "/faqs" ? "nav-link active" : "nav-link"}
+                            className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
                         >
                             FAQs
                         </Link>

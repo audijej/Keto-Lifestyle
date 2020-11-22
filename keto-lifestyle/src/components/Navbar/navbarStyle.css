@@ -1,13 +1,16 @@
 
 .navbar {
-    background-color: black;
+    background-color: #35306E;
     color: white;
     top: 0;
     text-align: right;
+    padding: 40px;
+    border-bottom: black 3px solid;
+    box-shadow: 5px 4px #888888;
   }
   
   .navbar:hover{
-    background-color: white;
+    background-color: #756AF0;
     color: black;
     transition: background-color .5s;
   }
