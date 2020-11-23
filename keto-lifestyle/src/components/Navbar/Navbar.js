@@ -11,14 +11,12 @@ function Navbar() {
     return (
 
         
-
-        
         <nav className="navbar navbar-expand-lg navbar-dark">
-            <div>
+            {/* <div>
                 <Link className="navbar-brand" to="/">
                     <h1 id="navbarTab">Keto Lifestyle</h1>
                 </Link>
-            </div>
+            </div> */}
 
             <div id="navbarRight">
                 <ul className="navbar-nav" id="navbarRight">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
+import NavbarTop from './components/Navbar/NavbarTop'
 import Footer from './components/Footer/Footer';
 import LandingPage from './pages/LandingPage';
 import RecipesPage from './pages/Recipes';
@@ -21,7 +22,8 @@ function App() {
 
     <Router>
       <div className="App">
-        <Navbar className="navigationBar"/>
+        <NavbarTop className="navigationBar" />
+        <Navbar className="navigationBar" />
 
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/about" component={About} />
@@ -35,7 +37,7 @@ function App() {
         <Route exact path="/pork" component={Pork} />
         <Route exact path="/seafood" component={Seafood} />
         <Route exact path="/turkey" component={Turkey} />
-<br></br>
+        <br></br>
         <Footer />
       </div>
     </Router>
