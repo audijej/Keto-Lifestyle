@@ -8,6 +8,10 @@
     border-bottom: black 3px solid;
     box-shadow: 5px 4px #888888;
   }
+
+  #headerNavbar {
+    text-align: center;
+  }
   
   .navbar:hover{
     background-color: #756AF0;
@@ -24,6 +28,11 @@
     font-family: 'Kaushan Script', cursive;
   }
 
+  #navbarTabTop {
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+  }
 
 
   #navbarTabDropdown {

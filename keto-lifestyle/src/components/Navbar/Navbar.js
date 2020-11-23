@@ -11,7 +11,7 @@ function Navbar() {
     return (
 
         
-        <nav className="navbar navbar-expand-lg navbar-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark justify-content-center">
             {/* <div>
                 <Link className="navbar-brand" to="/">
                     <h1 id="navbarTab">Keto Lifestyle</h1>
