@@ -4,13 +4,14 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import NavDropdown from 'react-bootstrap/Navbar';
 import "./navbarStyle.css";
 
 
 function Navbar() {
     return (
 
-        
+
         <nav className="navbar navbar-expand-lg navbar-dark justify-content-center">
             {/* <div>
                 <Link className="navbar-brand" to="/">
@@ -157,7 +158,7 @@ function Navbar() {
                 </ul>
             </div>
         </nav>
-        
+
     );
 }
 

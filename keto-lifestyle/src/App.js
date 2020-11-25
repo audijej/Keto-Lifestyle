@@ -15,6 +15,7 @@ import Turkey from './pages/Turkey';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Faqs from './pages/Faqs';
+import NavbarBottom from './components/Navbar/NavbarBottom'
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <div className="App">
         <NavbarTop className="navigationBar" />
         <Navbar className="navigationBar" />
+        <NavbarBottom />
 
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/about" component={About} />
