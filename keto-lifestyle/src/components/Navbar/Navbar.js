@@ -5,6 +5,10 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import NavDropdown from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Navbar';
+import Form from 'react-bootstrap/Form';
+import FormControl from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button'
 import "./navbarStyle.css";
 
 
@@ -156,6 +160,8 @@ function Navbar() {
                         </Dropdown.Item>
                     </DropdownButton>
                 </ul>
+
+
             </div>
         </nav>
 
